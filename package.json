@@ -1,0 +1,25 @@
+{
+  "name": "goals",
+  "version": "1.0.0",
+  "description": "goals journal",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1",
+    "webpack": "^1.13.2",
+    "react-bootstrap": "~0.30.5"
+  },
+  "devDependencies": {
+    "react-hot-loader": "~3.0.0-beta.6"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/webpack -d"
+  },
+  "author": "jatin tripathi",
+  "license": "ISC"
+}
